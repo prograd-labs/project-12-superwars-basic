@@ -40,7 +40,7 @@ Ohh yes! We have our beloved tests, and you already know how this works. Open th
 
 ## Trial 1: MORE PLAYERS ! MORE FUN !
 
-In `initPlayers()`, loop through passed constant and  create JSON Objects, such that each player contain name, strength, image url and type.  
+Dustin and Lucus wants to create players.In `initPlayers()`, loop through passed constant and  create JSON Objects, such that each player contain name, strength, image url and type.  
 * Use default `strength` as any number.  
 * `image` can be sequential i.e. "images/super-"+(i+1)+".png"  
 * `type` of player can alternating between hero and villain or your own logic
@@ -56,13 +56,13 @@ In `initPlayers()`, loop through passed constant and  create JSON Objects, such 
     ]
     ```
 
-## Trial 2: Courage is grace under pressure !
+## Trial 2: COURAGE IS GRACE !
 
-In `getRandomStrength()`, _return a random strength_ from 1 to 100. This function to be used.
+Add your logic in `getRandomStrength()` method, such that it should _return a random strength_ from 1 to 100.The strength is what gonna decide the winner.
 
-## Trial 3: No man should fall without a struggle !
+## Trial 3: NO PLAYER SHOULD FALL !
 
-In `buildPlayers()`, loop through the created JSON objects and accumulate HTML template as below and return it
+In `buildPlayers()`, loop through the created JSON objects and accumulate HTML template as below and _return HTML element_.
  ```JS
 <div class="player">
     <img src="${players[i].image}">
