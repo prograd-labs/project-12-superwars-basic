@@ -1,6 +1,6 @@
 # ProGrad
 
-## LAB | ProGrad Superwars
+## Superwars
 
 Dustin and Lucus are best friends, they spend their weekends watching superhero series and playing superhero games. One Friday in school Mr.Hooper who is their computer science faculty member taught them HTML, CSS, and JavaScript. So what's next? It's Weekend! Lucus and Dustin will be on their laptops. Are they watching series or playing games? Lucus says, No we are building a new game.
 
@@ -70,3 +70,6 @@ In `buildPlayers()`, loop through the created JSON objects and accumulate HTML t
     <div class="strength">${players[i].strength}</div>
 </div>
 ```
+## Expected Output
+
+![Superwars](doc/superwar-css.png)
