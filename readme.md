@@ -72,4 +72,5 @@ In `buildPlayers()`, loop through the created JSON objects and accumulate HTML t
 ```
 ## Expected Output
 
-![Superwars](doc/superwar-css.png)
+![Superwars](doc/superwars-basic1.png)
+![Superwars](doc/superwars-basic2.png)
