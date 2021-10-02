@@ -47,7 +47,7 @@ const getRandomStrength = () => {
     return Number.parseInt((Math.random( 100)*100).toFixed(0))
     // Note: You can use Math.random() and Math.ceil()
 }
-
+let count=0
 const buildPlayers = (players, type) => {
     let fragment = '';
 
